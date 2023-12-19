@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Oswald&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  color: #FFFFFF;
+  background-color: #1F1F1F;
+}
+
+img {
+  cursor: pointer;
+  max-width: 150px; /* Tamaño máximo de la imagen */
+  padding: auto 5px; /* Espaciado más reducido entre la imagen y la lista */
+}
+
+nav {
+  margin: auto; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li{
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-right: 5px; /* Espaciado más reducido entre el campo de búsqueda y el enlace */
+  padding: 5px; /* Ajusta el relleno del campo de búsqueda */
+  outline: none;
+}
+
+#lupa {
+  background-color: #ff6748;
+  padding: 2px 2px;
+  width: 25px;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  color: white; /* Color amarillo para el enlace "Contactanos!" */
+  font-weight: bold;
+  padding: 0px 35px;
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayar al pasar el ratón sobre el enlace */
+}
+
+main{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#SeccionRecomendados {
+  margin-top:45px;
+  background-color: #cfcfcf; /* Color gris para el contenedor */
+  width: 876px;
+}
+
+/* Estilos adicionales para las imágenes, ajusta según sea necesario */
+
+ul{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  padding: 0px 15px;
+}
+
+p{
+
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+h1{
+  padding: 10px 10px;
+}
+
+#Articulos{
+  padding: 15px 0px;
+  margin-bottom: 23px;
+  background-color: white;
+  width: 255px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#SeccionNuevos {
+  margin: 35px auto;
+  background-color: #cfcfcf; /* Color gris para el contenedor */
+  width: 876px;
+}
+
+#SeccionProximos{
+  background-color: #cfcfcf; /* Color gris para el contenedor */
+  width: 876px;
+}
+
+#filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 163px;
+  padding-top: 75px;
+}
+
+#filters input{
+  cursor: pointer;
+}
+
+button{
+  border: none;
+  color: white;
+  border-radius: 15px;
+  background-color: #D53B00;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
+  align-items: flex-start;
+}
+h4{
+  font-size: 17px;
+}
+
+#der{
+  width: 314px;
+}
+
+footer{
+  padding: 0px 30px;
+  background-color: #1F1F1F;
+  height: 86px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#Terminos{
+  display: flex;
+}
+
+#Terminos p {
+  padding: 0 10px;
+}
+
+#redesSociales{
+  display: flex;
+}
+
+#redesSociales p {
+  padding: 0 10px;
+}
+
+
