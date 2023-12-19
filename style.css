@@ -5,10 +5,19 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-y: scroll;
+  padding-top: 80px;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 
 header {
+  padding:0;
+  top:0;
+  width: 100%;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,10 +26,15 @@ header {
   background-color: #1F1F1F;
 }
 
+#logo{
+  margin-left: 10px;
+  cursor: pointer;
+  max-width: 150px; 
+}
+
 img {
   cursor: pointer;
   max-width: 150px; /* Tamaño máximo de la imagen */
-  padding: auto 5px; /* Espaciado más reducido entre la imagen y la lista */
 }
 
 nav {
@@ -44,9 +58,10 @@ nav a {
   font-weight: bold;
 }
 
-.search-container {
+.buscador {
   display: flex;
   align-items: center;
+  margin-right: 15px;
 }
 
 input {
@@ -66,12 +81,25 @@ a {
   cursor: pointer;
   color: white; /* Color amarillo para el enlace "Contactanos!" */
   font-weight: bold;
-  padding: 0px 35px;
+  padding: 0px 20px;
 }
 
 a:hover {
   text-decoration: underline; /* Subrayar al pasar el ratón sobre el enlace */
 }
+
+#contactanos{
+  cursor: pointer;
+  color: white; /* Color amarillo para el enlace "Contactanos!" */
+  font-weight: bold;
+  padding: 0px 50px;
+}
+
+#contactanos:hover{
+  text-decoration: underline;
+}
+
+
 
 main{
   display: flex;
@@ -125,12 +153,13 @@ h1{
 }
 
 #SeccionNuevos {
-  margin: 35px auto;
+  margin: 40px auto;
   background-color: #cfcfcf; /* Color gris para el contenedor */
   width: 876px;
 }
 
 #SeccionProximos{
+  margin-bottom: 30px;
   background-color: #cfcfcf; /* Color gris para el contenedor */
   width: 876px;
 }
@@ -140,7 +169,7 @@ h1{
   flex-direction: column;
   align-items: flex-start;
   width: 163px;
-  padding-top: 75px;
+  padding: 75px 20px;
 }
 
 #filters input{
@@ -192,5 +221,10 @@ footer{
 #redesSociales p {
   padding: 0 10px;
 }
+
+label{
+  padding: 10px 0px;
+}
+
 
 
